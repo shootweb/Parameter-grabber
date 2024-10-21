@@ -8,7 +8,9 @@ https://example.com?input=
 <br>
 https://example.com?search=
 <br>
-
+<br>
+So now we have a list of URLs with each parameter separated and ready to be tested.
+<br>
 ## Requirements
 This script uses requests python library.
 ```
@@ -17,5 +19,5 @@ pip install requests
 ## Usage
 This script works with requests python library.
 ```
-python FindParameters.py <Directory of input txt file of URLs> <Directory of output txt file>
+python FindParameters.py <Directory_of_input_txt_file_of_URLs> <Directory_of_output_txt_file>
 ```

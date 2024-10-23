@@ -17,7 +17,7 @@ This script uses requests python library.
 pip install requests
 ```
 ## Usage
-This script works with requests python library.
+
 ```
 python FindParameters.py <Directory_of_input_txt_file_of_URLs> <Directory_of_output_txt_file>
 ```

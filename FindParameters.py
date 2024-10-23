@@ -56,7 +56,7 @@
             urls = file.read().splitlines()
         return ["https://" + url if not url.startswith("https://") else url for url in urls]
 
-    # Function to process a single URL
+    # Headers specified because some websites will ask for them, if neccesary add cookies here
     def process_url(target_url):
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36",

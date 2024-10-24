@@ -1,20 +1,17 @@
 # Parameter-grabber
-Made and used this script while studying XSS attack surface.
-<br>
-This script is one part of multiple script I made to test for XSS for Open Bug Bounties.
-<br>
-You can use BurpSuite or other github tools for XSS testing. I wrote this to get a better grasp of what an XSS tool actually does (or should do).
+This script was developed while studying the XSS attack surface and is part of a suite of tools created for testing XSS vulnerabilities on Open Bug Bounties.
 
-## What do you use this for?
-This script will intake a txt file composed of a list of URLs to then export a list of the same URLs with the parameters found. For example if you have a file "URL.txt" with the website example.com and the script found parameters "input" and "search", then the output txt file will contain:
+## What does this script do?
+The `Parameter-grabber` script processes a text file containing a list of URLs and outputs a new file with those URLs expanded to include any parameters found. For example, if you start with a file named `URL.txt` containing `https://example.com`, and the script detects parameters like `input` and `search`, the output file will contain:
 <br>
 https://example.com?input=
 <br>
 https://example.com?search=
 <br>
 <br>
-So now we have a list of URLs with each parameter separated and ready to be tested.
+With this list of URLs and their respective parameters, you'll have a ready-to-use dataset testing.
 <br>
+
 ## Requirements
 This script uses requests python library.
 ```

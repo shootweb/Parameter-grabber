@@ -20,5 +20,6 @@ pip install requests
 ## Usage
 
 ```
-python FindParameters.py <Directory_of_input_txt_file_of_URLs> <Directory_of_output_txt_file>
+python FindParameters_with_headers.py targets.txt output.txt --headers "Cookie: __cf_bm=abc123; Authorization: Bearer xxxxx"
+
 ```
